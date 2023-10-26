@@ -1,0 +1,77 @@
+GameProject {
+ ID "GRAD-COOP-Template"
+ GUID "5EB4779B97BA28CD"
+ TITLE "GRAD COOP Template"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{5EB477E3BF1B128F}" {
+      StringTableSource "{68241F1222BB0CE0}Language/GRAD-COOP-Template-Localisation.st"
+      Languages {
+       LanguageDefinition "{5EB477E3B9C82337}" {
+        Code "cs_cz"
+        StringTableRuntime "{9F5E9CD50A74A263}Language/GRAD-COOP-Template-Localisation.cs_cz.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82306}" {
+        Code "de_de"
+        StringTableRuntime "{4A2086E619D7B343}Language/GRAD-COOP-Template-Localisation.de_de.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82375}" {
+        Code "en_us"
+        StringTableRuntime "{14D00CAD7324B642}Language/GRAD-COOP-Template-Localisation.en_us.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82362}" {
+        Code "es_es"
+        StringTableRuntime "{D19C41249D26DD5D}Language/GRAD-COOP-Template-Localisation.es_es.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82351}" {
+        Code "fr_fr"
+        StringTableRuntime "{6A34B4137BA53E5F}Language/GRAD-COOP-Template-Localisation.fr_fr.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82CBC}" {
+        Code "it_it"
+        StringTableRuntime "{EA283B27D687BDA6}Language/GRAD-COOP-Template-Localisation.it_it.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82CAD}" {
+        Code "ja_jp"
+        StringTableRuntime "{FA3386B5E8F68D0D}Language/GRAD-COOP-Template-Localisation.ja_jp.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82C9D}" {
+        Code "ko_kr"
+        StringTableRuntime "{5A8DAE197BDB8E32}Language/GRAD-COOP-Template-Localisation.ko_kr.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82C8B}" {
+        Code "pl_pl"
+        StringTableRuntime "{06FC08E3C534124E}Language/GRAD-COOP-Template-Localisation.pl_pl.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82CF6}" {
+        Code "pt_br"
+        StringTableRuntime "{D38B922FFECAD8F4}Language/GRAD-COOP-Template-Localisation.pt_br.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82DED}" {
+        Code "ru_ru"
+        StringTableRuntime "{86CA868763B3BD82}Language/GRAD-COOP-Template-Localisation.ru_ru.conf"
+       }
+       LanguageDefinition "{5EB477E3B9C82DCE}" {
+        Code "zh_cn"
+        StringTableRuntime "{D622BD4C363DD3CA}Language/GRAD-COOP-Template-Localisation.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

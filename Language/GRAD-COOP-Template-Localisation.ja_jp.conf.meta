@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FA3386B5E8F68D0D}Language/GRAD-COOP-Template-Localisation.ja_jp.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

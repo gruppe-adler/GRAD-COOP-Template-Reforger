@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F214B92A4BCBDECC}Missions/GRAD-COOP-Template-GM-Eden.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

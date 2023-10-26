@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9F5E9CD50A74A263}Language/GRAD-COOP-Template-Localisation.cs_cz.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

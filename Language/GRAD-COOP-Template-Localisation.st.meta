@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{68241F1222BB0CE0}Language/GRAD-COOP-Template-Localisation.st"
+ Configurations {
+  StringTableResourceClass PC {
+  }
+  StringTableResourceClass XBOX_ONE : PC {
+  }
+  StringTableResourceClass XBOX_SERIES : PC {
+  }
+  StringTableResourceClass PS4 : PC {
+  }
+  StringTableResourceClass HEADLESS : PC {
+  }
+ }
+}
