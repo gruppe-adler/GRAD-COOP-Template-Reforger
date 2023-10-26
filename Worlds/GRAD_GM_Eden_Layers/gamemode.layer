@@ -14,13 +14,13 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
    }
   }
  }
- coords 6382.764 158.568 6423.381
+ coords 6315.882 178.634 6511.323
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 11309.465 192.847 17140.725
+ coords 11242.584 212.913 17228.668
 }
 TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
- coords 6382.464 158.568 6443.409
+ coords 6315.583 178.634 6531.351
 }
 SCR_GameModeEditor GameMode_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
  components {
@@ -65,7 +65,7 @@ SCR_GameModeEditor GameMode_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Edi
    }
   }
  }
- coords 11191.086 221.999 12756.339
+ coords 11124.204 242.065 12844.281
  {
   SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
    coords 0 0 0
@@ -73,10 +73,13 @@ SCR_GameModeEditor GameMode_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Edi
  }
 }
 SCR_MapLocator {
- coords 6382.764 158.568 6423.381
+ coords 6315.882 178.634 6511.323
  m_WorldDirections SCR_MapLocationQuadHint "{5AAA92CD91D1D8F5}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
  }
 }
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
- coords 6381.649 158.568 6442.405
+ coords 6314.767 178.634 6530.347
+}
+SCR_SpawnPoint : "{CEA2B24051A44525}PrefabsEditable/SpawnPoints/E_SpawnPoint_US.et" {
+ coords 6394.992 159.385 6437.68
 }
