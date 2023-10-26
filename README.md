@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://github.com/y0014984/GRAD-COOP-Template-Reforger/assets/50139270/efadb891-a6e5-43fc-b2f6-808801341748.png">
+    <img src="https://github.com/y0014984/GRAD-COOP-Template-Reforger/assets/50139270/70a0be0e-7569-4b5c-9ebd-94fd1002f500.png">
 </p>
 
 <p align="center">
