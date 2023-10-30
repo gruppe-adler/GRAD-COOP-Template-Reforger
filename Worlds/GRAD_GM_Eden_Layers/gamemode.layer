@@ -80,6 +80,3 @@ SCR_MapLocator {
 HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
  coords 6314.767 178.634 6530.347
 }
-SCR_SpawnPoint : "{CEA2B24051A44525}PrefabsEditable/SpawnPoints/E_SpawnPoint_US.et" {
- coords 6394.992 159.385 6437.68
-}
