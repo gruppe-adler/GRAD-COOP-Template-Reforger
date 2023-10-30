@@ -5,7 +5,7 @@
 
 <p align="center">
     <a href="https://github.com/y0014984/GRAD-Spectator/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.1.0-blue.svg?style=flat-square" alt="GRAD COOP Template Reforger Version">
+        <img src="https://img.shields.io/badge/Version-1.2.1-blue.svg?style=flat-square" alt="GRAD COOP Template Reforger Version">
     </a>
     <a href="https://www.bistudio.com/community/licenses/arma-public-license-share-alike">
         <img src="https://img.shields.io/badge/License-APL-red.svg?style=flat-square" alt="GRAD COOP Template Reforger License">
@@ -26,6 +26,7 @@ GRAD COOP Template for Reforger is a mod that provides a Game Master Template fo
 - Localisation string table to bypass error on authors in mission header
 - unlocked Game Master budgets (changeable via Admin Mode for every player)
 - changed supply budget costs to 0 for all items
+- All loadouts for all factions available
 
 ## What the Mission Maker needs to do
 - Load the mission locally (in singleplayer) build mission and save it
