@@ -67,8 +67,196 @@ SCR_GameModeEditor GameMode_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Edi
  }
  coords 11124.204 242.065 12844.281
  {
-  SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+  SCR_LoadoutManager LoadoutManager_USxUSSRxFIA_1 : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
    coords 0 0 0
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{5EBD0AA32C28FFAB}" {
+     m_sLoadoutName "US AMG"
+     m_sLoadoutResource "{6058AB54781A0C52}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AMG.et"
+     m_sLoadoutImage "{2FC02D4957E7A86E}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_AMG.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA339641F59}" {
+     m_sLoadoutName "US Heli Crew"
+     m_sLoadoutResource "{15CD521098748195}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliCrew.et"
+     m_sLoadoutImage "{47B7F48AAECFC8B8}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_HeliCrew.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA35917D0BA}" {
+     m_sLoadoutName "US Heli Pilot"
+     m_sLoadoutResource "{42A502E3BB727CEB}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot.et"
+     m_sLoadoutImage "{F293529C376FB00C}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_HeliPilot.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA377A81E98}" {
+     m_sLoadoutName "US Medic"
+     m_sLoadoutResource "{C9E4FEAF5AAC8D8C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic.et"
+     m_sLoadoutImage "{8D3E9B959DCE2B60}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Medic.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA0839F0C39}" {
+     m_sLoadoutName "US RTO"
+     m_sLoadoutResource "{3726077BE60962FF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO.et"
+     m_sLoadoutImage "{099045EADC8BD971}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_RTO.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA0A977F3F7}" {
+     m_sLoadoutName "US SL"
+     m_sLoadoutResource "{E45F1E163F5CA080}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL.et"
+     m_sLoadoutImage "{E66FEBD3F049BF7D}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_SL.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA0BAD793A7}" {
+     m_sLoadoutName "US Spotter"
+     m_sLoadoutResource "{1CA3D30464EE4674}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Spotter.et"
+     m_sLoadoutImage "{0F7FF26A2EA503A0}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Spotter.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA0D1159C0B}" {
+     m_sLoadoutName "US TL"
+     m_sLoadoutResource "{E398E44759DA1A43}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL.et"
+     m_sLoadoutImage "{34E9DBD5693E1B7F}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_TL.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA0E345847D}" {
+     m_sLoadoutName "US Unarmed"
+     m_sLoadoutResource "{2F912ED6E399FF47}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed.et"
+     m_sLoadoutImage "{047ABB4F19374DB4}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Unarmed.edds"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA0FC388F69}" {
+     m_sLoadoutName "USSR AAT"
+     m_sLoadoutResource "{631158F6898738A4}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AAT.et"
+     m_sLoadoutImage "{5E3BDEFE331DDF53}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AAT.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA0172ECD57}" {
+     m_sLoadoutName "USSR AMG"
+     m_sLoadoutResource "{E9AEEF2D9E41321B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AMG.et"
+     m_sLoadoutImage "{768647F861FC76D4}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AMG.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA0239CD329}" {
+     m_sLoadoutName "USSR Heli Crew"
+     m_sLoadoutResource "{C8FABF6F093DA775}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliCrew.et"
+     m_sLoadoutImage "{06307450CC54D80E}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_HeliCrew.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA03F7B8B30}" {
+     m_sLoadoutName "USSR Heli Pilot"
+     m_sLoadoutResource "{A62FA97C4EC64F14}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_HeliPilot.et"
+     m_sLoadoutImage "{EDE66B00EFF911B0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_HeliPilot.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA04DBA0E0C}" {
+     m_sLoadoutName "USSR Medic"
+     m_sLoadoutResource "{AB9726163EC1BD81}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Medic.et"
+     m_sLoadoutImage "{9225D8E3CFAD7926}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Medic.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA05FCDC073}" {
+     m_sLoadoutName "USSR Officer"
+     m_sLoadoutResource "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et"
+     m_sLoadoutImage "{6A8FF7A3F9007CD0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA073099EAE}" {
+     m_sLoadoutName "USSR RTO"
+     m_sLoadoutResource "{612F43A4D5AE765F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_RTO.et"
+     m_sLoadoutImage "{50D62F5BEA9007CB}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_RTO.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA18D82F919}" {
+     m_sLoadoutName "USSR SL"
+     m_sLoadoutResource "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et"
+     m_sLoadoutImage "{7CB1ED2B23DD26E6}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_SL.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA19DDD14D9}" {
+     m_sLoadoutName "USSR SR"
+     m_sLoadoutResource "{333DA6244C7DA34C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SR.et"
+     m_sLoadoutImage "{B3C13666F37E27A6}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_SR.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA1AC87B0F8}" {
+     m_sLoadoutName "USSR Unarmed"
+     m_sLoadoutResource "{98EB9CDD85B8C92C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Unarmed.et"
+     m_sLoadoutImage "{6A73F75531DF6AD6}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Unarmed.edds"
+     m_sAffiliatedFaction "USSR"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA239B71BAB}" {
+     m_sLoadoutName "FIA AAT"
+     m_sLoadoutResource "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et"
+     m_sLoadoutImage "{F0EEA278F6C850CE}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_AAT.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA26B4C4133}" {
+     m_sLoadoutName "FIA AMG"
+     m_sLoadoutResource "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et"
+     m_sLoadoutImage "{D8533B7EA429F949}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_AMG.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA2787ADE28}" {
+     m_sLoadoutName "FIA AT"
+     m_sLoadoutResource "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et"
+     m_sLoadoutImage "{D8CD3A9B019B8CD2}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_AT.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA389FAA5F4}" {
+     m_sLoadoutName "FIA Medic"
+     m_sLoadoutResource "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et"
+     m_sLoadoutImage "{C493B700C7EDE149}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Medic.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA39BD20841}" {
+     m_sLoadoutName "FIA MG"
+     m_sLoadoutResource "{58E47E5A4D599432}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_MG.et"
+     m_sLoadoutImage "{F070A39D537A2555}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_MG.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA3AA7DFF45}" {
+     m_sLoadoutName "FIA PL"
+     m_sLoadoutResource "{FE65E8C60C751352}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_PL.et"
+     m_sLoadoutImage "{CA3D80DC1CD6D721}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_PL.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA2F946F647}" {
+     m_sLoadoutName "FIA Rifleman"
+     m_sLoadoutResource "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et"
+     m_sLoadoutImage "{6601A3AE17EA976D}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Rifleman.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA3C5FB628E}" {
+     m_sLoadoutName "FIA RTO"
+     m_sLoadoutResource "{23D81C023DBF85AC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_RTO.et"
+     m_sLoadoutImage "{FE0353DD2F458856}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_RTO.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA3DA694EDD}" {
+     m_sLoadoutName "FIA Scout"
+     m_sLoadoutResource "{BF1E43FF39AA526B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Scout.et"
+     m_sLoadoutImage "{44912375E590CF43}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Scout.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA3EB5B2BFE}" {
+     m_sLoadoutName "FIA Sharpshooter"
+     m_sLoadoutResource "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et"
+     m_sLoadoutImage "{8EFE184F9A90211B}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Sharpshooter.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA3FA4231A8}" {
+     m_sLoadoutName "FIA SL"
+     m_sLoadoutResource "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et"
+     m_sLoadoutImage "{C098D091AAC624A6}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_SL.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+    SCR_FactionPlayerLoadout "{5EBD0AA30B075936}" {
+     m_sLoadoutName "FIA Unarmed"
+     m_sLoadoutResource "{854C04F0EA2129CC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Unarmed.et"
+     m_sLoadoutImage "{0F62C575785D87CD}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Unarmed.edds"
+     m_sAffiliatedFaction "FIA"
+    }
+   }
   }
  }
 }
