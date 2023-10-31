@@ -19,11 +19,22 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 11242.584 212.913 17228.668
 }
-TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
- coords 6315.583 178.634 6531.351
-}
-SCR_GameModeEditor GameMode_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+SCR_BaseGameMode "5EBE9EDC222D2703" : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
  components {
+  SCR_ArsenalManagerComponent "{57155C58179F516B}" {
+  }
+  SCR_CampaignBuildingManagerComponent "{5D7CEE59B8954EBB}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5DF6FBB5913F3245}" {
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+  }
+  SCR_CommandingManagerComponent "{5D24CC701B322136}" {
+  }
+  SCR_CompositionSlotManagerComponent "{56C2DDA631D5EE38}" {
+  }
   SCR_EditorCameraDefaultsComponent "{531111508B1D17BA}" {
    m_aPositions {
     SCR_CameraCoordinates "{531111517085ECC9}" {
@@ -60,13 +71,172 @@ SCR_GameModeEditor GameMode_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Edi
     }
    }
   }
-  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
-   m_SpawnLogic SCR_MenuSpawnLogic "{5D28B7AC71C108B2}" {
+  SCR_EditorRespawnBriefingComponent "{570245454BF91285}" {
+   m_Info SCR_FormatUIInfo "{57024551E01725D4}" {
+    Icon "{8485D33991424756}UI/Textures/Editor/Logos/Logo_Editor_256x256.edds"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{57024551DA8DA4E7}" {
+      Name "#AR-EditorRespawnBriefing_Description_1"
+     }
+     SCR_SubBlockUIName "{570245502546615D}" {
+      Name "<br/>"
+     }
+     SCR_SubBlockUIName "{57024551D989EDAF}" {
+      Name "#AR-EditorRespawnBriefing_Description_2"
+     }
+     SCR_SubBlockUIName "{589EE51D327B1C2E}" {
+      Name "<br/>"
+     }
+     SCR_ActionBlockUIName "{57024551BA969346}" {
+      Name "#AR-EditorRespawnBriefing_Description_4"
+      m_iDevice "Mouse & Keyboard"
+      m_sActionName "ShowScoreboard"
+     }
+     SCR_ActionBlockUIName "{5868C2E91D4E5713}" {
+      Name "#AR-EditorRespawnBriefing_Description_5"
+      m_iDevice Gamepad
+      m_sActionName "MenuOpen"
+     }
+    }
    }
+   m_SimpleBriefingBackground "{3C50D67D082BA322}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_2_UI.edds"
+   m_InfoGameMaster SCR_FormatUIInfo "{59188E6A004A529C}" {
+    Icon "{8485D33991424756}UI/Textures/Editor/Logos/Logo_Editor_256x256.edds"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{59188E6BCF638E93}" {
+      Name "#AR-EditorRespawnBriefing_Description_GameMaster_1"
+     }
+     SCR_SubBlockUIName "{59188E6BF7C70F61}" : "{D7B219D54165E4B4}Configs/Hints/Blocks/LineBreak.conf" {
+     }
+     SCR_SubBlockUIName "{59188E6BFCFADAEC}" {
+      Name "#AR-EditorRespawnBriefing_Description_GameMaster_2"
+     }
+    }
+   }
+   m_InfoHost SCR_FormatUIInfo "{57027889747C45E0}" {
+    Icon "{8485D33991424756}UI/Textures/Editor/Logos/Logo_Editor_256x256.edds"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{57027889747C4414}" {
+      Name "#AR-EditorRespawnBriefing_Description_1"
+     }
+     SCR_SubBlockUIName "{5916F8D9F21BC382}" : "{D7B219D54165E4B4}Configs/Hints/Blocks/LineBreak.conf" {
+     }
+     SCR_SubBlockUIName "{589E84D2B18F57ED}" {
+      Name "#AR-EditorRespawnBriefing_Description_3"
+     }
+    }
+   }
+  }
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_bPermitUnconsciousVON 1
+  }
+  SCR_HintManagerComponent "{5702B54C6CBC9D7F}" {
+   m_aConditionLists {
+    SCR_HintConditionList "{5702B60460CC2467}" : "{AABAFA01D7DCE9D0}Configs/Hints/GameMode_Editor.conf" {
+    }
+   }
+  }
+  SCR_InitWeatherComponent "{58DCAB6D83A0CB17}" {
+   m_sInitialStartingWeatherId "Cloudy"
+   m_iSetWeatherConstant 1
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_NightModeGameModeComponent "{5D50E84688D5A408}" {
+   m_bAllowGlobalNightMode 1
+  }
+  SCR_PlayerSpawnPointManagerComponent "{56C2DDA69EF94C6D}" {
+   m_SpawnPointPrefab "{456EFDDA59DD6EB2}Prefabs/MP/PlayerRadioSpawnPoint.et"
+   m_bEnablePlayerSpawnPoints 0
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{5D44B78DAD98E7F9}" {
+   }
+  }
+  SCR_RespawnTimerComponent "{56C2DDA6EE0E4071}" {
+  }
+  SCR_RestoreEditorModesComponent "{5DAD37E0319AC92E}" {
+  }
+  SCR_RewindComponent "{5DBB38A8E194B4AA}" {
+  }
+  SCR_SaveLoadComponent "{58FA739CBE3E9FC5}" {
+   m_Struct SCR_MissionStruct "{590C7884C526BCDD}" {
+    m_Struct0 SCR_EditorStruct "{590C7881BB954DA4}" {
+     m_AttributeList SCR_EditorAttributeList "{590C7881C296FA7D}" : "{F3D6C6D25642352C}Configs/Editor/AttributeLists/Edit.conf" {
+     }
+    }
+   }
+   m_iAutosavePeriod 600
+  }
+  SCR_ScoringSystemComponent "{56C2DDA6F5A5E41B}" {
+  }
+  SCR_VotingManagerComponent "{5650BB6B6089393A}" {
+   m_aVotingTemplates {
+    SCR_VotingEditorIn "{58D06C7270F3CE2C}" : "{9DE543906BEAB993}Configs/Voting/EditorIn.conf" {
+    }
+    SCR_VotingEditorOut "{58D06C7271BA2FDE}" : "{FF27A5C582C16A88}Configs/Voting/EditorOut.conf" {
+    }
+    SCR_VotingEditorWithdraw "{5A8A8738B1A4AC19}" : "{D20DE4A96BAFE376}Configs/Voting/EditorWithdraw.conf" {
+    }
+   }
+  }
+  SCR_WelcomeScreenComponent "{5D7290AC8A3E657E}" {
+   m_sHeaderTitle "#AR-Editor_DeployMenu_Screen_Title"
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{5D7290AC92D25160}" {
+    m_LeftColumn SCR_WelcomeScreenIntroductionContent "{5D7290ABF7423AA2}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{5D7290ABCBFE3176}" {
+       m_sContentImage "{352FDBC685A7FCD8}UI/Textures/DeployMenu/DeployImages/GMDeploy_Player.edds"
+       m_sContentTitleText "#AR-Editor_DeployMenu_Player_Title"
+       m_sContentDescriptionText "#AR-Editor_DeployMenu_Player_Description"
+      }
+     }
+    }
+    m_MiddleColumn SCR_WelcomeScreenIntroductionContent "{5D7290ABF8B7756B}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{5D729EC0A67A9D46}" {
+       m_sContentImage "{2A9663A5D9B16758}UI/Textures/DeployMenu/DeployImages/GMDeploy_Gamemaster.edds"
+       m_sContentTitleText "#AR-Editor_DeployMenu_Scenario_Title"
+       m_sContentDescriptionText "#AR-Editor_DeployMenu_Scenario_Description"
+      }
+     }
+    }
+    m_RightColumn SCR_WelcomeScreenIntroductionContent "{5D7290ABFF9DBADC}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{5D729EC0BC408CC1}" {
+       m_sContentImage "{5DFB6BDBD880CB49}UI/Textures/DeployMenu/DeployImages/GMDeploy_BecomeGM.edds"
+       m_sContentTitleText "#AR-Editor_DeployMenu_GM_Rule_Title"
+       m_sContentDescriptionText "#AR-Editor_DeployMenu_GM_Rule_Description"
+      }
+     }
+    }
+   }
+  }
+  SerializerInventoryStorageManagerComponent "{5A8C89AA30C7A9A6}" {
   }
  }
  coords 11124.204 242.065 12844.281
+ PlayerControllerPrefab "{A1AE127F16DD352E}Prefabs/Characters/Core/DefaultPlayerControllerMP_Factions.et"
+ m_fAutoReloadTime 30
  {
+  SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+   Factions {
+    SCR_Faction "{56DEAC40D132400B}" {
+     m_sFactionRadioEncryptionKey ""
+    }
+   }
+  }
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+  }
+  ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+  }
+  SCR_EditorSettingsEntity {
+   coords 0 0 0
+   m_bIsUnlimitedEditorLegal 1
+  }
+  SCR_BaseTaskManager : "{87208DAD6F3C0DE2}Prefabs/MP/Managers/Tasks/TaskManager_Editor.et" {
+  }
   SCR_LoadoutManager LoadoutManager_USxUSSRxFIA_1 : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
    coords 0 0 0
    m_aPlayerLoadouts {
@@ -259,6 +429,9 @@ SCR_GameModeEditor GameMode_GameMaster : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Edi
    }
   }
  }
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+ coords 6315.583 178.634 6531.351
 }
 SCR_MapLocator {
  coords 6315.882 178.634 6511.323
